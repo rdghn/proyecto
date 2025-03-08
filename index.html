@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gracias por su compra</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('BILIE.jpg') no-repeat center center/cover;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        h1 {
+            font-size: 2rem;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .button {
+            margin-top: 20px;
+            padding: 15px 30px;
+            background: #2c05f0;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background: #27ae60;
+        }
+    </style>
+</head>
+<body>
+    <h1>GRACIAS POR SU COMPRA<3</h1>
+    <button class="button" onclick="redirigir()">TOCA AQUÍ</button>
+
+    <script>
+        function redirigir() {
+            window.location.href = "https://open.spotify.com/track/3QaPy1KgI7nu9FJEQUgn6h?si=Jclz0l9FRsiL4wJTdt0sdw&context=spotify%3Aplaylist%3A37i9dQZF1EIYf6cItAYzfX";
+        }
+    </script>
+</body>
+</html>
